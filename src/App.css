@@ -1,3 +1,15 @@
-body{
-    background-color: rgba(0, 0, 0, 0.581);
-}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  /* Smooth scrolling and image alignment */
+  img {
+    display: block;
+  }
+  
+  /* Prevent image breaking between columns */
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
